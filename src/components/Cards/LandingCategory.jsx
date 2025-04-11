@@ -18,7 +18,7 @@ const LandingCategory = ({ imageSrc, text }) => {
         setIsHovered(false);
       }}
       className={
-        "h-24 md:h-64 w-70 md:w-24 overflow-hidden duration-500 relative select-none cursor-pointer"
+        "h-24 md:h-104 w-70 md:w-24 overflow-hidden duration-500 relative select-none cursor-pointer"
       }
     >
       <img

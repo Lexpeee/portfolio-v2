@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #ededed;
   --foreground: #171717;
+}
+
+.dark-mode {
+  background: var(--foreground);
+  color: var(--background);
+  
 }
 
 @theme inline {
@@ -22,5 +28,6 @@
 body {
   background: var(--background);
   color: var(--foreground);
+  transition-duration: 500ms;
   font-family: "Poppins", serif;
 }
